@@ -8,7 +8,6 @@
     "license": "GNU GPL V3",
     "minimum-stability": "dev",
     "support": {
-        "wiki": "http://easyiicms.com/docs",
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
         "issues": "https://github.com/miragesoft/yii2-yiipress/issues"
     },
