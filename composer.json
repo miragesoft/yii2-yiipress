@@ -23,7 +23,7 @@
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "miragesoft/yii2-user": "*",
+        "miragesoft/yii2-user": "*"
     },
     "autoload": {
         "psr-4": {
