@@ -1,25 +1,21 @@
 {
     "name": "miragesoft/yii2-yiipress",
-    "description": "Yee CMS Based on Yii 2 Advanced Project Template",
+    "version": "dev-master",
+    "description": "CMS based on Yii2 Framework - Development package",
     "keywords": ["yii2","extension","yiipress","cms"],
+    "homepage": "https://github.com/miragesoft/yii2-yiipress",
     "type": "yii2-extension",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Mirage Studio TH",
-            "email": "miragestudioth@gmail.com"
-        }
-    ],
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
     "support": {
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
         "issues": "https://github.com/miragesoft/yii2-yiipress/issues"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
+    "authors": [
         {
-            "type": "vcs",
-            "url": "https://github.com/miragesoft/yii2-yiipress"
+            "name": "Mirage Studio TH",
+            "email": "miragestudioth@gmail.com",
+            "role" : "Developer"
         }
     ],
     "require": {
@@ -28,7 +24,10 @@
         "dmstr/yii2-adminlte-asset": "2.*",
         "miragesoft/yii2-user": "*"
     },
-    "require-dev": {
+    "autoload": {
+        "psr-4": {
+            "mirage\\yiipress\\": ""
+        }
     },
     "extra": {
         "asset-installer-paths": {
