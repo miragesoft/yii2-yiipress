@@ -6,7 +6,8 @@
     "homepage": "https://github.com/miragesoft/yii2-yiipress",
     "type": "yii2-extension",
     "license": "GPL-3.0",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "support": {
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
         "issues": "https://github.com/miragesoft/yii2-yiipress/issues"
