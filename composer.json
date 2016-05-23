@@ -16,6 +16,12 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/miragesoft/yii2-yiipress"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
