@@ -22,7 +22,7 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "miragesoft/yii2-user": "*"
+        "miragesoft/yii2-user": "dev-master as 0.0.1"
     },
     "autoload": {
         "psr-4": {
