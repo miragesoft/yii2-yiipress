@@ -6,7 +6,7 @@
     "homepage": "https://github.com/miragesoft/yii2-yiipress",
     "type": "yii2-extension",
     "license": "GNU GPL V3",
-    "minimum-stability": "stable",
+    "minimum-stability": "@dev",
     "support": {
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
         "issues": "https://github.com/miragesoft/yii2-yiipress/issues"
@@ -22,7 +22,7 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "miragesoft/yii2-user": "dev-master as 0.0.1"
+        "miragesoft/yii2-user": "dev-master"
     },
     "autoload": {
         "psr-4": {
