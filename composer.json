@@ -26,7 +26,7 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "yeesoft/yii2-yee-block": "*"
+        "miragesoft/yii2-user": "*"
     },
     "require-dev": {
     },
