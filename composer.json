@@ -2,10 +2,10 @@
     "name": "miragesoft/yii2-yiipress",
     "version": "dev-master",
     "description": "CMS based on Yii2 Framework - Development package",
-    "keywords": ["yiipress"],
+    "keywords": ["yii2","extension","yiipress","cms"],
     "homepage": "https://github.com/miragesoft/yii2-yiipress",
     "type": "yii2-extension",
-    "license": "GNU GPL V3",
+    "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
