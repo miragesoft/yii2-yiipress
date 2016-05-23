@@ -21,8 +21,8 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*"
+        "miragesoft/yii2-user": "dev-master",
+        "miragesoft/yii2-basicfilemanager": "dev-master"
     },
     "autoload": {
         "psr-4": {
