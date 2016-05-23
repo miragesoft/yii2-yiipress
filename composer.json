@@ -1,15 +1,22 @@
 {
     "name": "miragesoft/yii2-yiipress",
-    "description": "CMS based on Yii2 Framework - Development package",
+    "description": "Yee CMS Based on Yii 2 Advanced Project Template",
     "keywords": ["yii2","extension","yiipress","cms"],
-    "homepage": "https://github.com/miragesoft/yii2-yiipress",
     "type": "yii2-extension",
-    "license": "GPL-3.0",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mirage Studio TH",
+            "email": "miragestudioth@gmail.com"
+        }
+    ],
+  ],
     "support": {
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
         "issues": "https://github.com/miragesoft/yii2-yiipress/issues"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
@@ -17,12 +24,10 @@
         "miragesoft/yii2-user": "dev-master"
     },
     "require-dev": {
-        
-    },
-    "autoload": {
-        "psr-4": {
-            "mirage\\yiipress\\": ""
-        }
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
     },
     "config": {
         "process-timeout": 1800
