@@ -23,7 +23,7 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "mirocow/yii2-user": "dev-master"
+        "dektrium/yii2-user": "0.9.*@dev"
     },
     "autoload": {
         "psr-4": {
