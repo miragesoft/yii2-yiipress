@@ -1,34 +1,31 @@
 {
     "name": "miragesoft/yii2-yiipress",
-    "version": "dev-master",
     "description": "CMS based on Yii2 Framework - Development package",
     "keywords": ["yii2","extension","yiipress","cms"],
     "homepage": "https://github.com/miragesoft/yii2-yiipress",
     "type": "yii2-extension",
     "license": "GPL-3.0",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "support": {
         "source": "https://github.com/miragesoft/yii2-yiipress.git",
         "issues": "https://github.com/miragesoft/yii2-yiipress/issues"
     },
-    "authors": [
-        {
-            "name": "Mirage Studio TH",
-            "email": "miragestudioth@gmail.com",
-            "role" : "Developer"
-        }
-    ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "miragesoft/yii2-user": "*@dev"
+        "miragesoft/yii2-user": "dev-master"
+    },
+    "require-dev": {
+        
     },
     "autoload": {
         "psr-4": {
             "mirage\\yiipress\\": ""
         }
+    },
+    "config": {
+        "process-timeout": 1800
     },
     "extra": {
         "asset-installer-paths": {
